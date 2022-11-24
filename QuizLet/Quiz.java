@@ -30,19 +30,19 @@ public class Quiz {
 				"NIT","No","Nt","Ni","N","e");
 		question5.check();
 		
-		Question question6 = new TrueFalseQuestion("(1) 1 foot is greater than 1 meter","FALSE");
+		Question question6 = new TrueFalseQuestion("(6) 1 foot is greater than 1 meter","FALSE");
 		question6.check();
 		
-		Question question7 = new TrueFalseQuestion("(1) 1 foot is greater than 1 meter","FALSE");
+		Question question7 = new TrueFalseQuestion("(7) He stands for Helium","TRUE");
 		question7.check();
 	
-		Question question8 = new TrueFalseQuestion("(1) 1 foot is greater than 1 meter","FALSE");
+		Question question8 = new TrueFalseQuestion("(8) China is the biggest country.","FALSE");
 		question8.check();
 		
-		Question question9 = new TrueFalseQuestion("(1) 1 foot is greater than 1 meter","FALSE");
+		Question question9 = new TrueFalseQuestion("(9) Symbol for gold is Ag","FALSE");
 		question9.check();
 		
-		Question question10 = new TrueFalseQuestion("(1) 1 foot is greater than 1 meter","FALSE");
+		Question question10 = new TrueFalseQuestion("(10) Java and javascript are same","FALSE");
 		question10.check();
 		
 		Question.showResults();
